@@ -3,3 +3,8 @@
 .DS_Store
 staticfiles/
 nohup.out
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*$py.class
