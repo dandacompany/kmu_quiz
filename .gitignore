@@ -1,3 +1,4 @@
 .history
 .conda
 .DS_Store
+staticfiles/
