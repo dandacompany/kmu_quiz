@@ -1,0 +1,124 @@
+{
+	"title": "한국 연예인 퀴즈",
+	"description": "한국의 연예인과 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "1박 2일의 초대 멤버가 아닌 사람은?",
+			"selections": [
+				{ "content": "강호동", "is_correct": false, "index": 1 },
+				{ "content": "이수근", "is_correct": false, "index": 2 },
+				{ "content": "은지원", "is_correct": false, "index": 3 },
+				{ "content": "유재석", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "무한도전의 대표적인 프로젝트 중 하나인 '토토가'는 무엇의 줄임말인가요?",
+			"selections": [
+				{ "content": "토요일 토요일은 가수다", "is_correct": true, "index": 1 },
+				{
+					"content": "토크쇼 토크쇼는 가야한다",
+					"is_correct": false,
+					"index": 2
+				},
+				{
+					"content": "토요일 토요일은 가족이다",
+					"is_correct": false,
+					"index": 3
+				},
+				{
+					"content": "토요일 토요일은 가요제다",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		},
+		{
+			"content": "런닝맨의 초기 멤버 중 '월요커플'로 불렸던 두 사람은?",
+			"selections": [
+				{ "content": "김종국과 송지효", "is_correct": true, "index": 1 },
+				{ "content": "유재석과 지석진", "is_correct": false, "index": 2 },
+				{ "content": "하하와 개리", "is_correct": false, "index": 3 },
+				{ "content": "이광수와 송지효", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '나 혼자 산다'의 멤버가 아닌 사람은?",
+			"selections": [
+				{ "content": "박나래", "is_correct": false, "index": 1 },
+				{ "content": "기안84", "is_correct": false, "index": 2 },
+				{ "content": "전현무", "is_correct": false, "index": 3 },
+				{ "content": "유재석", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "'삼시세끼' 어촌편의 주 출연자가 아닌 사람은?",
+			"selections": [
+				{ "content": "차승원", "is_correct": false, "index": 1 },
+				{ "content": "유해진", "is_correct": false, "index": 2 },
+				{ "content": "손호준", "is_correct": false, "index": 3 },
+				{ "content": "이서진", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "'신서유기' 시리즈의 제작자는 누구인가요?",
+			"selections": [
+				{ "content": "김태호", "is_correct": false, "index": 1 },
+				{ "content": "나영석", "is_correct": true, "index": 2 },
+				{ "content": "김종국", "is_correct": false, "index": 3 },
+				{ "content": "유재석", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'복면가왕'의 MC는 누구인가요?",
+			"selections": [
+				{ "content": "유재석", "is_correct": false, "index": 1 },
+				{ "content": "신동엽", "is_correct": false, "index": 2 },
+				{ "content": "김성주", "is_correct": true, "index": 3 },
+				{ "content": "강호동", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'효리네 민박'의 첫 시즌에서 아르바이트생으로 출연한 아이돌은?",
+			"selections": [
+				{ "content": "아이유", "is_correct": true, "index": 1 },
+				{ "content": "수지", "is_correct": false, "index": 2 },
+				{ "content": "윤아", "is_correct": false, "index": 3 },
+				{ "content": "태연", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'비정상회담'의 초기 MC 중 한 명이었던 연예인은?",
+			"selections": [
+				{ "content": "유세윤", "is_correct": false, "index": 1 },
+				{ "content": "전현무", "is_correct": false, "index": 2 },
+				{ "content": "유재석", "is_correct": false, "index": 3 },
+				{ "content": "Jun 현중", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "'프로듀스 101' 시리즈의 대표 슬로건은?",
+			"selections": [
+				{
+					"content": "당신의 소녀에게 투표하세요",
+					"is_correct": false,
+					"index": 1
+				},
+				{
+					"content": "국민 프로듀서님, 투표해주세요",
+					"is_correct": false,
+					"index": 2
+				},
+				{
+					"content": "국민 프로듀서님, 당신의 소녀를 뽑아주세요",
+					"is_correct": true,
+					"index": 3
+				},
+				{
+					"content": "당신의 아이돌을 만들어주세요",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		}
+	]
+}

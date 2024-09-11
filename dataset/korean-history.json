@@ -1,0 +1,96 @@
+{
+	"title": "한국 역사 퀴즈",
+	"description": "한국의 역사와 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "고조선을 건국한 것으로 알려진 인물은?",
+			"selections": [
+				{ "content": "주몽", "is_correct": false, "index": 1 },
+				{ "content": "단군왕검", "is_correct": true, "index": 2 },
+				{ "content": "박혁거세", "is_correct": false, "index": 3 },
+				{ "content": "김수로", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "삼국 통일을 이룩한 신라의 왕은?",
+			"selections": [
+				{ "content": "진흥왕", "is_correct": false, "index": 1 },
+				{ "content": "문무왕", "is_correct": true, "index": 2 },
+				{ "content": "선덕여왕", "is_correct": false, "index": 3 },
+				{ "content": "지증왕", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "고려 시대에 몽골의 침입을 막기 위해 제작된 불교 경전은?",
+			"selections": [
+				{ "content": "삼국유사", "is_correct": false, "index": 1 },
+				{ "content": "삼국사기", "is_correct": false, "index": 2 },
+				{ "content": "직지심체요절", "is_correct": false, "index": 3 },
+				{ "content": "팔만대장경", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "조선 시대 세종대왕이 창제한 문자는?",
+			"selections": [
+				{ "content": "한문", "is_correct": false, "index": 1 },
+				{ "content": "한글", "is_correct": true, "index": 2 },
+				{ "content": "이두", "is_correct": false, "index": 3 },
+				{ "content": "향찰", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "임진왜란 당시 수군을 이끌어 큰 공을 세운 장군은?",
+			"selections": [
+				{ "content": "이순신", "is_correct": true, "index": 1 },
+				{ "content": "권율", "is_correct": false, "index": 2 },
+				{ "content": "김시민", "is_correct": false, "index": 3 },
+				{ "content": "곽재우", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "조선 후기에 서민들의 생활상을 담은 풍속화로 유명한 화가는?",
+			"selections": [
+				{ "content": "강희안", "is_correct": false, "index": 1 },
+				{ "content": "김홍도", "is_correct": true, "index": 2 },
+				{ "content": "정선", "is_correct": false, "index": 3 },
+				{ "content": "안견", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "1919년 3월 1일에 일어난 독립운동은?",
+			"selections": [
+				{ "content": "6·10 만세운동", "is_correct": false, "index": 1 },
+				{ "content": "광주학생운동", "is_correct": false, "index": 2 },
+				{ "content": "3·1 운동", "is_correct": true, "index": 3 },
+				{ "content": "신간회 운동", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "대한민국 임시정부의 초대 대통령은?",
+			"selections": [
+				{ "content": "이승만", "is_correct": true, "index": 1 },
+				{ "content": "김구", "is_correct": false, "index": 2 },
+				{ "content": "안창호", "is_correct": false, "index": 3 },
+				{ "content": "윤봉길", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "1950년에 발발한 전쟁의 명칭은?",
+			"selections": [
+				{ "content": "임진왜란", "is_correct": false, "index": 1 },
+				{ "content": "한국전쟁", "is_correct": true, "index": 2 },
+				{ "content": "청일전쟁", "is_correct": false, "index": 3 },
+				{ "content": "러일전쟁", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "1988년 서울에서 개최된 국제 스포츠 행사는?",
+			"selections": [
+				{ "content": "월드컵", "is_correct": false, "index": 1 },
+				{ "content": "아시안게임", "is_correct": false, "index": 2 },
+				{ "content": "올림픽", "is_correct": true, "index": 3 },
+				{ "content": "유니버시아드", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

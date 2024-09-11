@@ -1,0 +1,96 @@
+{
+	"title": "한국 아이돌 퀴즈",
+	"description": "한국의 아이돌과 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "BTS의 공식 팬클럽 이름은 무엇인가요?",
+			"selections": [
+				{ "content": "아미(ARMY)", "is_correct": true, "index": 1 },
+				{ "content": "블링크(BLINK)", "is_correct": false, "index": 2 },
+				{ "content": "원스(ONCE)", "is_correct": false, "index": 3 },
+				{ "content": "엑소엘(EXO-L)", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '국민 프로듀서'로 알려진 프로듀서는 누구인가요?",
+			"selections": [
+				{ "content": "방시혁", "is_correct": false, "index": 1 },
+				{ "content": "박진영", "is_correct": false, "index": 2 },
+				{ "content": "유희열", "is_correct": false, "index": 3 },
+				{ "content": "이수만", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "BLACKPINK의 데뷔곡은 무엇인가요?",
+			"selections": [
+				{ "content": "Kill This Love", "is_correct": false, "index": 1 },
+				{ "content": "DDU-DU DDU-DU", "is_correct": false, "index": 2 },
+				{ "content": "Whistle", "is_correct": true, "index": 3 },
+				{ "content": "How You Like That", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "EXO가 소속된 엔터테인먼트 회사는?",
+			"selections": [
+				{ "content": "JYP Entertainment", "is_correct": false, "index": 1 },
+				{ "content": "YG Entertainment", "is_correct": false, "index": 2 },
+				{ "content": "SM Entertainment", "is_correct": true, "index": 3 },
+				{ "content": "Big Hit Entertainment", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'눈, 코, 입'을 부른 가수는?",
+			"selections": [
+				{ "content": "태연", "is_correct": false, "index": 1 },
+				{ "content": "아이유", "is_correct": false, "index": 2 },
+				{ "content": "태양", "is_correct": true, "index": 3 },
+				{ "content": "준호", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "TWICE의 멤버 중 외국인 멤버가 아닌 사람은?",
+			"selections": [
+				{ "content": "모모", "is_correct": false, "index": 1 },
+				{ "content": "사나", "is_correct": false, "index": 2 },
+				{ "content": "미나", "is_correct": false, "index": 3 },
+				{ "content": "지효", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '프로듀스 101' 시리즈를 통해 데뷔하지 않은 그룹은?",
+			"selections": [
+				{ "content": "I.O.I", "is_correct": false, "index": 1 },
+				{ "content": "Wanna One", "is_correct": false, "index": 2 },
+				{ "content": "IZ*ONE", "is_correct": false, "index": 3 },
+				{ "content": "Stray Kids", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "Red Velvet의 데뷔 년도는?",
+			"selections": [
+				{ "content": "2013년", "is_correct": false, "index": 1 },
+				{ "content": "2014년", "is_correct": true, "index": 2 },
+				{ "content": "2015년", "is_correct": false, "index": 3 },
+				{ "content": "2016년", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'강남스타일'로 세계적인 인기를 얻은 가수는?",
+			"selections": [
+				{ "content": "싸이", "is_correct": true, "index": 1 },
+				{ "content": "비", "is_correct": false, "index": 2 },
+				{ "content": "지드래곤", "is_correct": false, "index": 3 },
+				{ "content": "박재범", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "NCT의 'NCT'는 무엇의 약자인가요?",
+			"selections": [
+				{ "content": "New Culture Technology", "is_correct": true, "index": 1 },
+				{ "content": "Neo City Team", "is_correct": false, "index": 2 },
+				{ "content": "Next Creative Talent", "is_correct": false, "index": 3 },
+				{ "content": "National City Tour", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

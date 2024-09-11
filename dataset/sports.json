@@ -1,0 +1,96 @@
+{
+	"title": "스포츠 퀴즈",
+	"description": "스포츠와 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "2002년 한일 월드컵에서 한국 축구 국가대표팀의 감독은 누구였나요?",
+			"selections": [
+				{ "content": "박항서", "is_correct": false, "index": 1 },
+				{ "content": "히딩크", "is_correct": true, "index": 2 },
+				{ "content": "차범근", "is_correct": false, "index": 3 },
+				{ "content": "홍명보", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 최초의 올림픽 금메달리스트는 누구인가요?",
+			"selections": [
+				{ "content": "양정모", "is_correct": true, "index": 1 },
+				{ "content": "김연아", "is_correct": false, "index": 2 },
+				{ "content": "박세리", "is_correct": false, "index": 3 },
+				{ "content": "손흥민", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 프로야구(KBO 리그)에서 가장 많은 우승을 차지한 팀은?",
+			"selections": [
+				{ "content": "두산 베어스", "is_correct": false, "index": 1 },
+				{ "content": "삼성 라이온즈", "is_correct": true, "index": 2 },
+				{ "content": "KIA 타이거즈", "is_correct": false, "index": 3 },
+				{ "content": "SK 와이번스", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "2018년 평창 동계올림픽에서 한국이 최초로 금메달을 획득한 종목은?",
+			"selections": [
+				{ "content": "쇼트트랙", "is_correct": false, "index": 1 },
+				{ "content": "스피드 스케이팅", "is_correct": false, "index": 2 },
+				{ "content": "컬링", "is_correct": false, "index": 3 },
+				{ "content": "스켈레톤", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 축구의 '태극전사'라는 별명은 언제부터 사용되기 시작했나요?",
+			"selections": [
+				{ "content": "1954년 스위스 월드컵", "is_correct": true, "index": 1 },
+				{ "content": "1988년 서울 올림픽", "is_correct": false, "index": 2 },
+				{ "content": "2002년 한일 월드컵", "is_correct": false, "index": 3 },
+				{ "content": "2010년 남아공 월드컵", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 여자 골프 선수 중 'LPGA 명예의 전당'에 최초로 입성한 선수는?",
+			"selections": [
+				{ "content": "박세리", "is_correct": true, "index": 1 },
+				{ "content": "박인비", "is_correct": false, "index": 2 },
+				{ "content": "신지애", "is_correct": false, "index": 3 },
+				{ "content": "최나연", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 프로농구(KBL)에서 '농구 황제'로 불리는 선수는?",
+			"selections": [
+				{ "content": "서장훈", "is_correct": true, "index": 1 },
+				{ "content": "허재", "is_correct": false, "index": 2 },
+				{ "content": "현주엽", "is_correct": false, "index": 3 },
+				{ "content": "우지원", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "2012년 런던 올림픽에서 한국 양궁 대표팀이 획득한 금메달 수는?",
+			"selections": [
+				{ "content": "1개", "is_correct": false, "index": 1 },
+				{ "content": "2개", "is_correct": false, "index": 2 },
+				{ "content": "3개", "is_correct": true, "index": 3 },
+				{ "content": "4개", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 최초의 FIFA 발롱도르 후보에 오른 축구 선수는?",
+			"selections": [
+				{ "content": "박지성", "is_correct": false, "index": 1 },
+				{ "content": "손흥민", "is_correct": true, "index": 2 },
+				{ "content": "차범근", "is_correct": false, "index": 3 },
+				{ "content": "이영표", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "한국 태권도가 올림픽 정식 종목으로 채택된 해는?",
+			"selections": [
+				{ "content": "1988년", "is_correct": false, "index": 1 },
+				{ "content": "1992년", "is_correct": false, "index": 2 },
+				{ "content": "2000년", "is_correct": true, "index": 3 },
+				{ "content": "2004년", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

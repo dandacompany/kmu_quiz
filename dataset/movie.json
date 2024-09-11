@@ -1,0 +1,96 @@
+{
+	"title": "영화 퀴즈",
+	"description": "영화와 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "영화 '기생충'의 감독은 누구인가요?",
+			"selections": [
+				{ "content": "박찬욱", "is_correct": false, "index": 1 },
+				{ "content": "봉준호", "is_correct": true, "index": 2 },
+				{ "content": "김기덕", "is_correct": false, "index": 3 },
+				{ "content": "이창동", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'아바타' 시리즈의 감독은 누구인가요?",
+			"selections": [
+				{ "content": "스티븐 스필버그", "is_correct": false, "index": 1 },
+				{ "content": "크리스토퍼 놀란", "is_correct": false, "index": 2 },
+				{ "content": "제임스 카메론", "is_correct": true, "index": 3 },
+				{ "content": "피터 잭슨", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 마블 시네마틱 유니버스(MCU)에 속하지 않는 영화는?",
+			"selections": [
+				{ "content": "아이언맨", "is_correct": false, "index": 1 },
+				{ "content": "어벤저스", "is_correct": false, "index": 2 },
+				{ "content": "다크나이트", "is_correct": true, "index": 3 },
+				{ "content": "블랙 팬서", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "영화 '타이타닉'의 주연 배우는?",
+			"selections": [
+				{ "content": "브래드 피트", "is_correct": false, "index": 1 },
+				{ "content": "레오나르도 디카프리오", "is_correct": true, "index": 2 },
+				{ "content": "톰 크루즈", "is_correct": false, "index": 3 },
+				{ "content": "조니 뎁", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'스타워즈' 시리즈의 제작사는?",
+			"selections": [
+				{ "content": "워너 브라더스", "is_correct": false, "index": 1 },
+				{ "content": "유니버설 스튜디오", "is_correct": false, "index": 2 },
+				{ "content": "디즈니", "is_correct": true, "index": 3 },
+				{ "content": "파라마운트 픽처스", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '오스카 남우주연상'을 받지 않은 배우는?",
+			"selections": [
+				{ "content": "톰 행크스", "is_correct": false, "index": 1 },
+				{ "content": "브래드 피트", "is_correct": false, "index": 2 },
+				{ "content": "레오나르도 디카프리오", "is_correct": false, "index": 3 },
+				{ "content": "조니 뎁", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "'해리 포터' 시리즈의 원작자는?",
+			"selections": [
+				{ "content": "J.R.R. 톨킨", "is_correct": false, "index": 1 },
+				{ "content": "C.S. 루이스", "is_correct": false, "index": 2 },
+				{ "content": "J.K. 롤링", "is_correct": true, "index": 3 },
+				{ "content": "조지 R.R. 마틴", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 픽사 애니메이션 스튜디오의 작품이 아닌 것은?",
+			"selections": [
+				{ "content": "토이 스토리", "is_correct": false, "index": 1 },
+				{ "content": "인사이드 아웃", "is_correct": false, "index": 2 },
+				{ "content": "겨울왕국", "is_correct": true, "index": 3 },
+				{ "content": "월-E", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'인셉션'의 감독은?",
+			"selections": [
+				{ "content": "크리스토퍼 놀란", "is_correct": true, "index": 1 },
+				{ "content": "마틴 스코세이지", "is_correct": false, "index": 2 },
+				{ "content": "쿠엔틴 타란티노", "is_correct": false, "index": 3 },
+				{ "content": "데이빗 핀처", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '007' 시리즈에서 제임스 본드 역을 맡지 않은 배우는?",
+			"selections": [
+				{ "content": "션 코너리", "is_correct": false, "index": 1 },
+				{ "content": "로저 무어", "is_correct": false, "index": 2 },
+				{ "content": "피어스 브로스넌", "is_correct": false, "index": 3 },
+				{ "content": "맷 데이먼", "is_correct": true, "index": 4 }
+			]
+		}
+	]
+}

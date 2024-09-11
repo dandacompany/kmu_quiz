@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% load static %} {% block extra_style %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/quiz.css' %}" />
+{% endblock extra_style %} {% block content %}
+<div class="result-container">
+	<h1>퀴즈 결과</h1>
+	<p>총 문제 수: <span id="total-questions"></span></p>
+	<p>맞은 문제 수: <span id="correct-answers"></span></p>
+	<p>점수: <span id="score"></span>점</p>
+	<button id="home-button">메인으로</button>
+</div>
+
+<div id="questions-answers-list"></div>
+<script src="{% static 'js/result.js' %}"></script>
+{% endblock %}

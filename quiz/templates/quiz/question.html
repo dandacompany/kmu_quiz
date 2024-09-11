@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% load static %} {% block extra_style %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/quiz.css' %}" />
+{% endblock extra_style %} {% block content %}
+<script src="{% static 'js/quiz.js' %}"></script>
+<div class="quiz-container">
+	<h1 id="quiz-title">{{ test.title }}</h1>
+	<div id="question-carousel">
+		{% for question in questions %}
+		<div class="question-slide {% if forloop.first %}active{% endif %}">
+			<h2>퀴즈 {{ forloop.counter }}/{{ questions|length }}</h2>
+			<p class="question-text">{{ question.content }}</p>
+			<div class="selections-container">
+				{% for selection in question.selection.all %}
+				<div class="selection-box">
+					<input
+						type="radio"
+						name="selection_{{ question.id }}"
+						id="selection_{{ selection.id }}"
+						value="{{ selection.id }}"
+						data-is-correct="{{ selection.is_correct|yesno:'true,false' }}"
+						data-content="{{ selection.content }}"
+					/>
+					<label for="selection_{{ selection.id }}"
+						>{{ selection.content }}</label
+					>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<button id="next-button" type="button">다음 질문</button>
+	<button id="submit-button" type="button" style="display: none">
+		결과 보기
+	</button>
+</div>
+
+<input type="hidden" id="session_id" value="{{ session_id }}" />
+<input type="hidden" id="test_id" value="{{ test.id }}" />
+<input type="hidden" id="total-questions" value="{{ questions|length }}" />
+{% endblock content %}

@@ -1,0 +1,164 @@
+.quiz-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.selections-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.selection-box {
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.selection-box:hover {
+	background-color: #f0f0f0;
+}
+
+.selection-box.selected {
+	border-color: #4caf50;
+	background-color: #e8f5e9;
+}
+
+.selection-box input[type="radio"] {
+	display: none;
+}
+
+.selection-box label {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+
+#next-button,
+#submit-button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#next-button:hover,
+#submit-button:hover {
+	background-color: #45a049;
+}
+
+#home-button {
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#home-button:hover {
+	background-color: #45a049;
+}
+
+#question-carousel {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+}
+
+.question-slide {
+	position: absolute;
+	width: 100%;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.question-slide.active {
+	z-index: 1;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* 슬라이드 방향 클래스 */
+.slide-left {
+	transform: translateX(-100%);
+}
+
+.slide-right {
+	transform: translateX(100%);
+}
+
+.slide-center {
+	transform: translateX(0);
+}
+
+/* 결과 페이지 스타일 */
+.result-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#questions-answers-list {
+	margin-top: 30px;
+}
+
+#questions-answers-list h3 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#questions-answers-list p {
+	margin-bottom: 5px;
+}
+
+#questions-answers-list hr {
+	margin: 20px 0;
+	border: none;
+	border-top: 1px solid #ddd;
+}
+
+.correct-answer-indicator {
+	color: #4caf50;
+}
+
+.incorrect-answer-indicator {
+	color: #f44336;
+}

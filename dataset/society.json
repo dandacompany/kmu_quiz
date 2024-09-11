@@ -1,0 +1,132 @@
+{
+	"title": "사회 퀴즈",
+	"description": "사회와 관련된 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "다음 중 '사회계약론'을 주장한 철학자가 아닌 사람은?",
+			"selections": [
+				{ "content": "존 로크", "is_correct": false, "index": 1 },
+				{ "content": "장 자크 루소", "is_correct": false, "index": 2 },
+				{ "content": "토마스 홉스", "is_correct": false, "index": 3 },
+				{ "content": "칼 마르크스", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "프로이트의 정신분석 이론에서 '이드(Id)'는 무엇을 의미하나요?",
+			"selections": [
+				{ "content": "도덕성과 양심", "is_correct": false, "index": 1 },
+				{
+					"content": "현실 원칙에 따라 행동하는 자아",
+					"is_correct": false,
+					"index": 2
+				},
+				{ "content": "본능적 욕구와 충동", "is_correct": true, "index": 3 },
+				{ "content": "이상적인 자아상", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '문화 상대주의'의 핵심 주장은 무엇인가요?",
+			"selections": [
+				{ "content": "모든 문화는 평등하다", "is_correct": false, "index": 1 },
+				{
+					"content": "문화는 그 사회의 맥락에서 이해해야 한다",
+					"is_correct": true,
+					"index": 2
+				},
+				{
+					"content": "서구 문화가 가장 발전했다",
+					"is_correct": false,
+					"index": 3
+				},
+				{ "content": "문화는 진화한다", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 맑스주의 이론의 핵심 개념이 아닌 것은?",
+			"selections": [
+				{ "content": "계급 투쟁", "is_correct": false, "index": 1 },
+				{ "content": "잉여 가치", "is_correct": false, "index": 2 },
+				{ "content": "생산 수단", "is_correct": false, "index": 3 },
+				{ "content": "개인주의", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "'제3의 물결'을 주장한 미래학자는 누구인가요?",
+			"selections": [
+				{ "content": "앨빈 토플러", "is_correct": true, "index": 1 },
+				{ "content": "새뮤얼 헌팅턴", "is_correct": false, "index": 2 },
+				{ "content": "프란시스 후쿠야마", "is_correct": false, "index": 3 },
+				{ "content": "노암 촘스키", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '유리천장'이 의미하는 바는 무엇인가요?",
+			"selections": [
+				{ "content": "건축 기술의 발전", "is_correct": false, "index": 1 },
+				{ "content": "환경 보호를 위한 정책", "is_correct": false, "index": 2 },
+				{
+					"content": "여성의 승진을 막는 보이지 않는 장벽",
+					"is_correct": true,
+					"index": 3
+				},
+				{ "content": "경제 성장의 한계", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '판옵티콘' 개념을 사회 통제의 메타포로 사용한 철학자는?",
+			"selections": [
+				{ "content": "미셸 푸코", "is_correct": true, "index": 1 },
+				{ "content": "장 폴 사르트르", "is_correct": false, "index": 2 },
+				{ "content": "자크 데리다", "is_correct": false, "index": 3 },
+				{ "content": "위르겐 하버마스", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '집단 지성(Collective Intelligence)'을 가장 잘 설명한 것은?",
+			"selections": [
+				{ "content": "개인의 지능 지수", "is_correct": false, "index": 1 },
+				{ "content": "인공지능의 발전", "is_correct": false, "index": 2 },
+				{
+					"content": "다수의 개인이 협력하여 만들어내는 지적 능력",
+					"is_correct": true,
+					"index": 3
+				},
+				{ "content": "학교 교육의 효과", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'세계체제론'을 주장한 사회학자는 누구인가요?",
+			"selections": [
+				{ "content": "막스 베버", "is_correct": false, "index": 1 },
+				{ "content": "에밀 뒤르켐", "is_correct": false, "index": 2 },
+				{ "content": "탈콧 파슨스", "is_correct": false, "index": 3 },
+				{ "content": "이매뉴얼 월러스틴", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 '사회적 구성주의'의 핵심 주장은 무엇인가요?",
+			"selections": [
+				{
+					"content": "사회는 개인의 합으로 이루어진다",
+					"is_correct": false,
+					"index": 1
+				},
+				{
+					"content": "현실은 객관적으로 존재한다",
+					"is_correct": false,
+					"index": 2
+				},
+				{
+					"content": "지식과 현실은 사회적 상호작용을 통해 구성된다",
+					"is_correct": true,
+					"index": 3
+				},
+				{
+					"content": "인간의 본성은 변하지 않는다",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		}
+	]
+}

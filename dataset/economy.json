@@ -1,0 +1,136 @@
+{
+	"title": "경제학 퀴즈",
+	"description": "경제학에 관한 재미있는 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "GDP는 무엇의 약자인가요?",
+			"selections": [
+				{
+					"content": "Global Development Process",
+					"is_correct": false,
+					"index": 1
+				},
+				{ "content": "Gross Domestic Product", "is_correct": true, "index": 2 },
+				{
+					"content": "General Dividend Payment",
+					"is_correct": false,
+					"index": 3
+				},
+				{
+					"content": "Government Debt Program",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		},
+		{
+			"content": "다음 중 중앙은행의 주요 역할이 아닌 것은?",
+			"selections": [
+				{ "content": "물가 안정", "is_correct": false, "index": 1 },
+				{ "content": "통화 정책 수립", "is_correct": false, "index": 2 },
+				{ "content": "기준금리 결정", "is_correct": false, "index": 3 },
+				{ "content": "개인 대출 승인", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "주식시장에서 '황소장(Bull Market)'은 어떤 상황을 의미하나요?",
+			"selections": [
+				{
+					"content": "주가가 지속적으로 하락하는 시장",
+					"is_correct": false,
+					"index": 1
+				},
+				{
+					"content": "주가가 지속적으로 상승하는 시장",
+					"is_correct": true,
+					"index": 2
+				},
+				{
+					"content": "주가의 변동성이 큰 시장",
+					"is_correct": false,
+					"index": 3
+				},
+				{
+					"content": "거래량이 매우 적은 시장",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		},
+		{
+			"content": "인플레이션이란 무엇인가요?",
+			"selections": [
+				{ "content": "물가의 지속적인 하락", "is_correct": false, "index": 1 },
+				{ "content": "물가의 지속적인 상승", "is_correct": true, "index": 2 },
+				{ "content": "경제 성장률의 증가", "is_correct": false, "index": 3 },
+				{ "content": "실업률의 감소", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 직접세에 해당하는 것은?",
+			"selections": [
+				{ "content": "부가가치세", "is_correct": false, "index": 1 },
+				{ "content": "소비세", "is_correct": false, "index": 2 },
+				{ "content": "소득세", "is_correct": true, "index": 3 },
+				{ "content": "관세", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 케인즈 경제학의 주요 주장이 아닌 것은?",
+			"selections": [
+				{
+					"content": "정부의 시장 개입 필요성",
+					"is_correct": false,
+					"index": 1
+				},
+				{ "content": "유효수요의 중요성", "is_correct": false, "index": 2 },
+				{
+					"content": "완전 고용을 위한 재정 정책",
+					"is_correct": false,
+					"index": 3
+				},
+				{
+					"content": "시장의 완전한 자율 조정 능력",
+					"is_correct": true,
+					"index": 4
+				}
+			]
+		},
+		{
+			"content": "다음 중 자유무역협정(FTA)의 주요 목적이 아닌 것은?",
+			"selections": [
+				{ "content": "관세 장벽 제거", "is_correct": false, "index": 1 },
+				{ "content": "국가 간 교역 증진", "is_correct": false, "index": 2 },
+				{ "content": "경제 협력 강화", "is_correct": false, "index": 3 },
+				{ "content": "국내 산업 보호", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 독점적 경쟁 시장의 특징이 아닌 것은?",
+			"selections": [
+				{ "content": "다수의 판매자", "is_correct": false, "index": 1 },
+				{ "content": "제품 차별화", "is_correct": false, "index": 2 },
+				{ "content": "진입과 탈퇴의 자유", "is_correct": false, "index": 3 },
+				{ "content": "완전한 정보", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 통화정책의 수단이 아닌 것은?",
+			"selections": [
+				{ "content": "지급준비율 조정", "is_correct": false, "index": 1 },
+				{ "content": "공개시장조작", "is_correct": false, "index": 2 },
+				{ "content": "재할인율 조정", "is_correct": false, "index": 3 },
+				{ "content": "세율 조정", "is_correct": true, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 경제학에서 '보이지 않는 손'을 주장한 경제학자는?",
+			"selections": [
+				{ "content": "존 메이너드 케인즈", "is_correct": false, "index": 1 },
+				{ "content": "애덤 스미스", "is_correct": true, "index": 2 },
+				{ "content": "칼 마르크스", "is_correct": false, "index": 3 },
+				{ "content": "밀턴 프리드먼", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

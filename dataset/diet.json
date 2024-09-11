@@ -1,0 +1,96 @@
+{
+	"title": "다이어트 상식 퀴즈",
+	"description": "다이어트와 건강한 식습관에 관한 상식 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "체중 감량에 가장 효과적인 운동 방법은?",
+			"selections": [
+				{ "content": "유산소 운동", "is_correct": true, "index": 1 },
+				{ "content": "근력 운동", "is_correct": false, "index": 2 },
+				{ "content": "요가", "is_correct": false, "index": 3 },
+				{ "content": "스트레칭", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 가장 칼로리가 높은 음식은?",
+			"selections": [
+				{ "content": "사과", "is_correct": false, "index": 1 },
+				{ "content": "바나나", "is_correct": false, "index": 2 },
+				{ "content": "아보카도", "is_correct": true, "index": 3 },
+				{ "content": "토마토", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "체중 감량을 위해 하루에 몇 끼 식사를 하는 것이 좋을까요?",
+			"selections": [
+				{ "content": "1끼", "is_correct": false, "index": 1 },
+				{ "content": "2끼", "is_correct": false, "index": 2 },
+				{ "content": "3끼", "is_correct": true, "index": 3 },
+				{ "content": "4끼 이상", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 다이어트에 도움이 되는 식품은?",
+			"selections": [
+				{ "content": "흰 쌀", "is_correct": false, "index": 1 },
+				{ "content": "정제된 설탕", "is_correct": false, "index": 2 },
+				{ "content": "현미", "is_correct": true, "index": 3 },
+				{ "content": "버터", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "체중 감량을 위해 하루에 몇 분 이상 운동하는 것이 좋을까요?",
+			"selections": [
+				{ "content": "10분", "is_correct": false, "index": 1 },
+				{ "content": "30분", "is_correct": true, "index": 2 },
+				{ "content": "1시간", "is_correct": false, "index": 3 },
+				{ "content": "2시간", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 다이어트에 가장 해로운 습관은?",
+			"selections": [
+				{ "content": "야식 먹기", "is_correct": true, "index": 1 },
+				{ "content": "물 많이 마시기", "is_correct": false, "index": 2 },
+				{ "content": "채소 섭취하기", "is_correct": false, "index": 3 },
+				{ "content": "규칙적인 운동", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "체중 감량을 위해 가장 중요한 요소는?",
+			"selections": [
+				{ "content": "운동", "is_correct": false, "index": 1 },
+				{ "content": "식단 조절", "is_correct": true, "index": 2 },
+				{ "content": "수면", "is_correct": false, "index": 3 },
+				{ "content": "스트레스 관리", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 체중 감량에 도움이 되는 음료는?",
+			"selections": [
+				{ "content": "탄산음료", "is_correct": false, "index": 1 },
+				{ "content": "과일주스", "is_correct": false, "index": 2 },
+				{ "content": "녹차", "is_correct": true, "index": 3 },
+				{ "content": "에너지 드링크", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다이어트 중 단백질 섭취가 중요한 이유는?",
+			"selections": [
+				{ "content": "체지방 증가", "is_correct": false, "index": 1 },
+				{ "content": "근육량 유지", "is_correct": true, "index": 2 },
+				{ "content": "수분 축적", "is_correct": false, "index": 3 },
+				{ "content": "식욕 증가", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 체중 감량에 가장 효과적인 식사 방법은?",
+			"selections": [
+				{ "content": "한 번에 많이 먹기", "is_correct": false, "index": 1 },
+				{ "content": "천천히 꼭꼭 씹어 먹기", "is_correct": true, "index": 2 },
+				{ "content": "식사 중 TV 보기", "is_correct": false, "index": 3 },
+				{ "content": "밤에 주로 먹기", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

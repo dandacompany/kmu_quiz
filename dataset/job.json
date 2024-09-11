@@ -1,0 +1,112 @@
+{
+	"title": "직업 상식퀴즈",
+	"description": "직업에 관한 재미있는 퀴즈입니다.",
+	"questions": [
+		{
+			"content": "다음 중 '히포크라테스 선서'와 가장 관련 있는 직업은?",
+			"selections": [
+				{ "content": "변호사", "is_correct": false, "index": 1 },
+				{ "content": "의사", "is_correct": true, "index": 2 },
+				{ "content": "교사", "is_correct": false, "index": 3 },
+				{ "content": "경찰관", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'바리스타'는 주로 어떤 음료를 전문적으로 다루는 직업인가요?",
+			"selections": [
+				{ "content": "와인", "is_correct": false, "index": 1 },
+				{ "content": "맥주", "is_correct": false, "index": 2 },
+				{ "content": "커피", "is_correct": true, "index": 3 },
+				{ "content": "차", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "건축물의 설계와 감리를 담당하는 전문가를 무엇이라고 부르나요?",
+			"selections": [
+				{ "content": "엔지니어", "is_correct": false, "index": 1 },
+				{ "content": "건축가", "is_correct": true, "index": 2 },
+				{ "content": "디자이너", "is_correct": false, "index": 3 },
+				{ "content": "시공사", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "다음 중 법정에서 재판을 주재하는 직업은?",
+			"selections": [
+				{ "content": "검사", "is_correct": false, "index": 1 },
+				{ "content": "변호사", "is_correct": false, "index": 2 },
+				{ "content": "판사", "is_correct": true, "index": 3 },
+				{ "content": "배심원", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'앵커'라고 불리는 사람의 주요 업무는 무엇인가요?",
+			"selections": [
+				{ "content": "배를 조종하는 일", "is_correct": false, "index": 1 },
+				{ "content": "뉴스를 진행하는 일", "is_correct": true, "index": 2 },
+				{ "content": "건물을 설계하는 일", "is_correct": false, "index": 3 },
+				{ "content": "요리를 만드는 일", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "소방관이 사용하는 장비 중 'SCBA'는 무엇의 약자인가요?",
+			"selections": [
+				{
+					"content": "자급식 호흡 장치 (Self-Contained Breathing Apparatus)",
+					"is_correct": true,
+					"index": 1
+				},
+				{
+					"content": "안전 관리 위원회 협회 (Safety Control Board Association)",
+					"is_correct": false,
+					"index": 2
+				},
+				{
+					"content": "화상 사고 특별 관리 (Special Care for Burn Accidents)",
+					"is_correct": false,
+					"index": 3
+				},
+				{
+					"content": "건물 접근 체계적 점검 (Systematic Check for Building Access)",
+					"is_correct": false,
+					"index": 4
+				}
+			]
+		},
+		{
+			"content": "'산파'라고도 불리는 이 의료 전문가의 공식 명칭은 무엇인가요?",
+			"selections": [
+				{ "content": "소아과 의사", "is_correct": false, "index": 1 },
+				{ "content": "산부인과 의사", "is_correct": false, "index": 2 },
+				{ "content": "조산사", "is_correct": true, "index": 3 },
+				{ "content": "간호사", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "항공기 객실에서 승객의 안전과 편의를 담당하는 직업은?",
+			"selections": [
+				{ "content": "파일럿", "is_correct": false, "index": 1 },
+				{ "content": "스튜어드/스튜어디스", "is_correct": true, "index": 2 },
+				{ "content": "관제사", "is_correct": false, "index": 3 },
+				{ "content": "정비사", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "'펜네임'을 사용하는 경우가 많은 직업은?",
+			"selections": [
+				{ "content": "과학자", "is_correct": false, "index": 1 },
+				{ "content": "정치인", "is_correct": false, "index": 2 },
+				{ "content": "작가", "is_correct": true, "index": 3 },
+				{ "content": "운동선수", "is_correct": false, "index": 4 }
+			]
+		},
+		{
+			"content": "기업의 재무 상태를 조사하고 보고서를 작성하는 전문가를 무엇이라고 부르나요?",
+			"selections": [
+				{ "content": "회계사", "is_correct": true, "index": 1 },
+				{ "content": "세무사", "is_correct": false, "index": 2 },
+				{ "content": "변호사", "is_correct": false, "index": 3 },
+				{ "content": "경영컨설턴트", "is_correct": false, "index": 4 }
+			]
+		}
+	]
+}

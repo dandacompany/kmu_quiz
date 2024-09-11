@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block content %}
+<h1>KMU QUIZ</h1>
+<div class="quiz-grid">
+	{% for test in tests %}
+	<div class="quiz-item">
+		<h2>{{ test.title }}</h2>
+		<p>{{ test.description }}</p>
+		<button onclick="startQuiz({{ test.id }})">퀴즈 시작</button>
+	</div>
+	{% endfor %}
+</div>
+
+<script>
+	function startQuiz(testId) {
+		if (confirm("퀴즈를 시작하시겠습니까?")) {
+			window.location.href = `/quiz/${testId}/start/`;
+		}
+	}
+</script>
+{% endblock %}
