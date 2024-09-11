@@ -30,6 +30,11 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
+# 관리자 사이트 타이틀 변경
+ADMIN_SITE_HEADER = "KMU Quiz 관리자"
+ADMIN_SITE_TITLE = "KMU Quiz 관리자"
+ADMIN_INDEX_TITLE = "KMU Quiz 관리"
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -94,9 +99,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
@@ -115,3 +120,4 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+

@@ -60,18 +60,3 @@ class Selection(models.Model):
     
     def __str__(self):
         return f'{self.index}. {self.content}'
-    
-
-class UserAnswer(models.Model):
-    
-    session = models.UUIDField(null=True, blank=True, verbose_name="세션")
-    answer = models.ForeignKey(Selection, on_delete=models.SET_NULL, null=True, related_name='user_answer', verbose_name="선택지")
-    created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
-    
-    class Meta:
-        db_table = "user_answers"
-        verbose_name = "사용자 답변"
-        verbose_name_plural = "08. 사용자 답변"
-    
-    def __str__(self):
-        return self.content

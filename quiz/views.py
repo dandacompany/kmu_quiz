@@ -1,8 +1,7 @@
 from django.views.generic import ListView, DetailView, RedirectView
 from django.urls import reverse
-from django.http import JsonResponse
-from django.shortcuts import get_object_or_404, redirect
-from .models import Test, Question, Selection, UserAnswer
+from django.shortcuts import get_object_or_404
+from .models import Test
 import uuid
 
 from rest_framework.views import APIView
