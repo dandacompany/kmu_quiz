@@ -9,3 +9,5 @@ __pycache__/
 *.pyc
 *$py.class
 static/
+static/*
+!quiz/static/
