@@ -44,7 +44,7 @@ class Question(models.Model):
     
 class Selection(models.Model):
 
-    content = models.TextField(null=True, blank=True, verbose_name="내용")
+    content = models.CharField(max_length=255, null=True, blank=True, verbose_name="내용")
     image = models.ImageField(null=True, blank=True, upload_to='selection/', verbose_name="이미지")
     is_correct = models.BooleanField(default=False, verbose_name="정답")
     index = models.IntegerField(default=0, verbose_name="인덱스")
@@ -58,6 +58,28 @@ class Selection(models.Model):
         verbose_name = "선택지"
         verbose_name_plural = "03. 선택지"
         ordering = ['content']
+    
+    # 정답은 1개만 존재하도록 설정
+    def save(self, *args, **kwargs):
+        # 현재 질문에 대한 모든 선택지를 가져옵니다.
+        existing_selections = Selection.objects.filter(question=self.question)
+        
+        # 새로운 선택지가 정답으로 설정된 경우
+        if self.is_correct:
+            # 기존의 모든 정답을 False로 설정합니다.
+            existing_selections.filter(is_correct=True).update(is_correct=False)
+            
+            # 현재 선택지를 정답으로 설정합니다.
+            self.is_correct = True
+        
+        # 정답이 없는 경우, 인덱스가 가장 높은 선택지를 정답으로 설정합니다.
+        elif not existing_selections.filter(is_correct=True).exists():
+            highest_index_selection = existing_selections.order_by('-index').first()
+            if highest_index_selection:
+                highest_index_selection.is_correct = True
+                highest_index_selection.save()
+        
+        super().save(*args, **kwargs)
     
     def __str__(self):
         return f'{self.index}. {self.content}'

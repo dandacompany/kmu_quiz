@@ -5,16 +5,10 @@ from .models import Test, Question, Selection
 class QuestionInline(admin.TabularInline):
     model = Question
     extra = 1
-    fields = ('index', 'content', 'seconds', 'score', 'selection_list', 'view_link')
-    readonly_fields = ('view_link', 'selection_list')
+    show_change_link = True
+    fields = ('index', 'content', 'seconds', 'score', 'selection_list')
+    readonly_fields = ('selection_list',)
     ordering = ('index',)  # 인덱스 순으로 정렬
-
-    def view_link(self, obj):
-        if obj.id:
-            url = reverse('admin:quiz_question_change', args=[obj.id])
-            return format_html('<a href="{}">상세보기</a>', url)
-        return "저장 후 링크 생성"
-    view_link.short_description = "상세 링크"
 
     def selection_list(self, obj):
         selections = obj.selection.all().order_by('index')
@@ -29,18 +23,11 @@ class QuestionInline(admin.TabularInline):
 # custom.css 파일에 다음 내용을 추가해야 합니다:
 # .field-content { width: 30%; }
 
-class SelectionInline(admin.StackedInline):
+class SelectionInline(admin.TabularInline):
     model = Selection
+    show_change_link = True
     extra = 1
-    fields = ('index', 'content', 'is_correct', 'view_link')
-    readonly_fields = ('view_link',)
-
-    def view_link(self, obj):
-        if obj.id:
-            url = reverse('admin:quiz_selection_change', args=[obj.id])
-            return format_html('<a href="{}">상세보기</a>', url)
-        return "저장 후 링크 생성"
-    view_link.short_description = "상세 링크"
+    fields = ('index', 'content', 'is_correct')
 
 # Test 모델 관리
 @admin.register(Test)
