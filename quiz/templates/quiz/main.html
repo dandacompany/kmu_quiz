@@ -5,16 +5,13 @@
 	<div class="quiz-item">
 		<h2>{{ test.title }}</h2>
 		<p>{{ test.description }}</p>
-		<button onclick="startQuiz({{ test.id }})">퀴즈 시작</button>
+		<button
+			onclick="location.href='{% url 'start_quiz' test.id %}'"
+			class="quiz-start-button"
+		>
+			퀴즈 시작
+		</button>
 	</div>
 	{% endfor %}
 </div>
-
-<script>
-	function startQuiz(testId) {
-		if (confirm("퀴즈를 시작하시겠습니까?")) {
-			window.location.href = `/quiz/${testId}/start/`;
-		}
-	}
-</script>
 {% endblock %}

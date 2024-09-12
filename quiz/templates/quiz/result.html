@@ -1,14 +1,27 @@
-{% extends 'base.html' %} {% load static %} {% block extra_style %}
+{% extends 'base.html' %} {% load static %} {% block content %}
 <link rel="stylesheet" type="text/css" href="{% static 'css/quiz.css' %}" />
-{% endblock extra_style %} {% block content %}
 <div class="result-container">
 	<h1>퀴즈 결과</h1>
 	<p>총 문제 수: <span id="total-questions"></span></p>
 	<p>맞은 문제 수: <span id="correct-answers"></span></p>
 	<p>점수: <span id="score"></span>점</p>
-	<button id="home-button">메인으로</button>
+	<button id="feedback-button">메인으로</button>
+</div>
+
+<div id="feedback-modal" class="modal">
+	<div class="modal-content">
+		<h2>피드백</h2>
+		<p>퀴즈가 맘에 드셨나요?</p>
+		<button id="yes-button">예</button>
+		<button id="no-button">아니오</button>
+		<button id="close-modal">닫기</button>
+	</div>
 </div>
 
 <div id="questions-answers-list"></div>
+
+<script>
+	var quizFeedbackUrl = "{% url 'quiz_feedback' test.id %}";
+</script>
 <script src="{% static 'js/result.js' %}"></script>
 {% endblock %}

@@ -2,7 +2,6 @@ from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
 from .models import Test, Question, Selection
-
 class QuestionInline(admin.TabularInline):
     model = Question
     extra = 1
@@ -21,6 +20,14 @@ class QuestionInline(admin.TabularInline):
         selections = obj.selection.all().order_by('index')
         return format_html("<br>".join([f"{s.index}. {s.content} {' (정답)' if s.is_correct else ''}" for s in selections]))
     selection_list.short_description = "등록된 선택지 목록"
+
+    class Media:
+        css = {
+            'all': ('admin/css/custom.css',)
+        }
+
+# custom.css 파일에 다음 내용을 추가해야 합니다:
+# .field-content { width: 30%; }
 
 class SelectionInline(admin.StackedInline):
     model = Selection

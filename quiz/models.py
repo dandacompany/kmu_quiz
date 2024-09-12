@@ -7,6 +7,7 @@ class Test(models.Model):
     thumbnail = models.ImageField(null=True, blank=True, upload_to='thumbnail/', verbose_name="썸네일")
     engagement = models.IntegerField(default=0, verbose_name="참여수")
     likes = models.IntegerField(default=0, verbose_name="좋아요")
+    dislikes = models.IntegerField(default=0, verbose_name="싫어요")  # 새로 추가된 필드
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="생성일")
     updated_at = models.DateTimeField(auto_now=True, verbose_name="수정일")
     

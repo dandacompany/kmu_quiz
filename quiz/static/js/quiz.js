@@ -45,29 +45,31 @@ document.addEventListener("DOMContentLoaded", function () {
 		const selectedRadio = currentSlide.querySelector(
 			'input[type="radio"]:checked'
 		);
+		if (!selectedRadio) {
+			alert("정답을 선택해주세요.");
+			return false;
+		}
 		const currentQuestion =
 			currentSlide.querySelector(".question-text").textContent;
 		const correctAnswerInput = currentSlide.querySelector(
 			'input[type="radio"][data-is-correct="true"]'
 		);
 		const correctAnswer = correctAnswerInput.dataset.content;
-		if (selectedRadio) {
-			userAnswers[currentQuestionIndex] = {
-				questionId: currentSlide
-					.querySelector('input[type="radio"]')
-					.name.split("_")[1],
-				selectedId: selectedRadio.value,
-				selectedAnswer: selectedRadio.dataset.content,
-				isCorrect: selectedRadio.dataset.isCorrect === "true",
-				question: currentQuestion,
-				correctAnswer: correctAnswer,
-			};
-		}
+		userAnswers[currentQuestionIndex] = {
+			questionId: currentSlide
+				.querySelector('input[type="radio"]')
+				.name.split("_")[1],
+			selectedId: selectedRadio.value,
+			selectedAnswer: selectedRadio.dataset.content,
+			isCorrect: selectedRadio.dataset.isCorrect === "true",
+			question: currentQuestion,
+			correctAnswer: correctAnswer,
+		};
+		return true;
 	}
 
 	nextButton.addEventListener("click", function () {
-		saveAnswer();
-		if (currentQuestionIndex < totalQuestions - 1) {
+		if (saveAnswer() && currentQuestionIndex < totalQuestions - 1) {
 			showQuestion(currentQuestionIndex + 1, "right");
 		}
 	});
