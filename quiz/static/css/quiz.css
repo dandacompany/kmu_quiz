@@ -72,7 +72,8 @@ p {
 	background-color: #45a049;
 }
 
-#home-button {
+#home-button,
+#feedback-button {
 	display: block;
 	width: 200px;
 	margin: 20px auto;
@@ -86,7 +87,8 @@ p {
 	transition: background-color 0.3s ease;
 }
 
-#home-button:hover {
+#home-button:hover,
+#feedback-button:hover {
 	background-color: #45a049;
 }
 

@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			.getElementById("close-modal")
 			.addEventListener("click", function () {
 				document.getElementById("feedback-modal").style.display = "none";
+				setTimeout(function () {
+					window.location.href = "/";
+				}, 300);
 			});
 
 		document.getElementById("total-questions").textContent =

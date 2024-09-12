@@ -5,12 +5,60 @@
 	<div class="quiz-item">
 		<h2>{{ test.title }}</h2>
 		<p>{{ test.description }}</p>
-		<button
-			onclick="location.href='{% url 'start_quiz' test.id %}'"
-			class="quiz-start-button"
+		<div
+			class="quiz-buttons-and-stats"
+			style="display: flex; justify-content: space-between; align-items: center"
 		>
-			퀴즈 시작
-		</button>
+			<button
+				onclick="location.href='{% url 'start_quiz' test.id %}'"
+				class="quiz-start-button"
+				style="margin-right: 10px"
+			>
+				퀴즈 시작
+			</button>
+			<div
+				class="quiz-stats"
+				style="display: flex; align-items: center; gap: 10px"
+			>
+				<span class="engagement" style="display: flex; align-items: center">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 100 40"
+						width="40px"
+						height="30px"
+					>
+						<defs>
+							<path
+								id="roundedRect"
+								d="M10,2 h80 a8,8 0 0 1 8,8 v20 a8,8 0 0 1 -8,8 h-80 a8,8 0 0 1 -8,-8 v-20 a8,8 0 0 1 8,-8 z"
+							/>
+						</defs>
+						<use href="#roundedRect" fill="#FFFFFFFF" />
+						<use
+							href="#roundedRect"
+							fill="none"
+							stroke="#FFB3BA"
+							stroke-width="2"
+						/>
+						<text
+							x="50"
+							y="28"
+							font-family="Arial, sans-serif"
+							font-size="28"
+							font-weight="bold"
+							text-anchor="middle"
+							fill="#FFB3BA"
+						>
+							TEST
+						</text>
+					</svg>
+					&nbsp;
+					<span style="vertical-align: middle">{{ test.engagement }}</span>
+				</span>
+				<span class="likes">👍 {{ test.likes }}</span>
+				<span class="dislikes">👎 {{ test.dislikes }}</span>
+			</div>
+		</div>
 	</div>
 	{% endfor %}
 </div>
