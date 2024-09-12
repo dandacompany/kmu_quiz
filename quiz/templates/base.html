@@ -4,7 +4,26 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{% block title %}퀴즈 앱{% endblock %}</title>
+		<title>{% block title %}KMU QUIZ{% endblock %}</title>
+		<meta name="description" content="국민대학교 퀴즈 플랫폼" />
+		<meta
+			name="keywords"
+			content="국민대학교, 경영대학원, KMU, AI빅데이터, 퀴즈, 학습, 테스트"
+		/>
+		<meta name="author" content="Dante" />
+		<meta property="og:title" content="KMU QUIZ" />
+		<meta
+			property="og:description"
+			content="국민대학교 퀴즈 플랫폼에서 다양한 퀴즈를 즐겨보세요!"
+		/>
+		<meta property="og:image" content="{% static 'assets/logo.webp' %}" />
+		<meta property="og:url" content="https://dante2024.pythonanywhere.com/" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="{% static 'assets/favicon.png' %}"
+		/>
 		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
 		{% block extra_style %}{% endblock %}
 	</head>
